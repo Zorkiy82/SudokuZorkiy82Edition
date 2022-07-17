@@ -1,0 +1,15 @@
+/* *{
+    border: 1px solid red;
+} */
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    margin: 0 auto;
+
+    max-width: 1000px;
+    height: 100vh;
+    background-color: black;
+}

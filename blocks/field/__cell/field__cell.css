@@ -1,0 +1,18 @@
+.field__cell{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid black;
+
+}
+
+.field__cell:nth-of-type(3n){
+  border-right: 3px solid;
+}
+
+/* .field__cell:nth-of-type(-n+18){
+  border-bottom: 3px solid;
+} */
