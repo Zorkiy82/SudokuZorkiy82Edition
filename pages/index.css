@@ -6,5 +6,7 @@
 @import url('../blocks/field/__cell/_list/field__cell_list.css');
 @import url('../blocks/field/__cell-main-digit/field__cell-main-digit.css');
 @import url('../blocks/field/__cell/_border-bottom/field__cell_border-bottom.css');
+@import url('../blocks/field/__cell/_selected/field__cell_selected.css');
+
 
 
