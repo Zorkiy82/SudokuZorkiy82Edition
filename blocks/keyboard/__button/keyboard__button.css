@@ -1,0 +1,11 @@
+.keyboard__button{
+  display: block;
+  border: none;
+
+
+
+}
+
+.keypad__button:hover{
+  opacity: 0.8;
+}

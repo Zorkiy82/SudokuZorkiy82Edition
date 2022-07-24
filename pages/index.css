@@ -1,6 +1,7 @@
 @import url('../vendor/normalize.css');
 
 @import url('../blocks/page/page.css');
+
 @import url('../blocks/field/field.css');
 @import url('../blocks/field/__cell/field__cell.css');
 @import url('../blocks/field/__cell/_list/field__cell_list.css');
@@ -8,5 +9,8 @@
 @import url('../blocks/field/__cell/_border-bottom/field__cell_border-bottom.css');
 @import url('../blocks/field/__cell/_selected/field__cell_selected.css');
 
-
-
+@import url('../blocks/keyboard/keyboard.css');
+@import url('../blocks/keyboard/__numpad/keyboard__numpad.css');
+@import url('../blocks/keyboard/__controlpad/keyboard__controlpad.css');
+@import url('../blocks/keyboard/__button/keyboard__button.css');
+@import url('../blocks/keyboard/__button/_type/keyboard__button_type_digit.css');

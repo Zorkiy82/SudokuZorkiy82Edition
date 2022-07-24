@@ -1,0 +1,7 @@
+.keyboard__controlpad{
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  min-height: 10px;
+  margin-bottom: 20px;
+}

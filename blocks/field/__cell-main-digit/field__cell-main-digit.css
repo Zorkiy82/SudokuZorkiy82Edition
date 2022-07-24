@@ -1,4 +1,6 @@
 .field__cell-main-digit{
   position: absolute;
   margin: 0;
+  color: #0072E3;
+  /* color: black */
 }

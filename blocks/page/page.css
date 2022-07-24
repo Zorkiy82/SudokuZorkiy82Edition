@@ -4,6 +4,7 @@
 
 .page {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     border: 1px solid green;
@@ -11,5 +12,5 @@
 
     max-width: 1000px;
     height: 100vh;
-    background-color: black;
+    background-color: gray;
 }

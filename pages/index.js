@@ -1,4 +1,5 @@
 import { Cell } from "../scripts/components/Cell.js";
+import { Numpad } from "../scripts/components/Numpad.js";
 
 const initialArray = [
   [0, 3, 1, 6, 0, 7, 0, 0, 0],
@@ -13,6 +14,10 @@ const initialArray = [
 ];
 
 let cellsArray = [[], [], [], [], [], [], [], [], []];
+
+const numpadSelector = '.keyboard__numpad';
+
+
 
 let cellsList = document.querySelectorAll(".field__cell");
 let counter = 0;
@@ -45,4 +50,17 @@ for (let x = 0; x < 9; ++x) {
   }
 }
 
+// console.log(cellsArray[0][0].__cellMainDigitElement)
+
+
 cellsList = {};
+
+const numpad = new Numpad(numpadSelector,hadleMouseDownToNumpad);
+
+function hadleMouseDownToNumpad(curentDigit){
+  // console.log(Boolean(selectedCell));
+  if (selectedCell){
+    selectedCell.setUserDigit(curentDigit);
+  }
+
+}
